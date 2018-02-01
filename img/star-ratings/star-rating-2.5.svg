@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="545px" height="98px" viewBox="0 0 545 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>star-rating-2.5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="96" rx="12"></rect>
+        <filter x="-1.0%" y="-1.0%" width="102.1%" height="104.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="112" y="0" width="96" height="96" rx="12"></rect>
+        <filter x="-1.0%" y="-1.0%" width="102.1%" height="104.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="224" y="0" width="96" height="96" rx="12"></rect>
+        <filter x="-1.0%" y="-1.0%" width="102.1%" height="104.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="336" y="0" width="96" height="96" rx="12"></rect>
+        <filter x="-1.0%" y="-1.0%" width="102.1%" height="104.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="448" y="0" width="96" height="96" rx="12"></rect>
+        <filter x="-1.0%" y="-1.0%" width="102.1%" height="104.2%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="star-rating-2.5">
+            <g id="Rectangle-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#D6D7D5" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle-2-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#D6D7D5" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <path d="M12,0 L48,0 L48,96 L12,96 C5.372583,96 8.11624501e-16,90.627417 0,84 L0,12 C-8.11624501e-16,5.372583 5.372583,1.21743675e-15 12,0 Z" id="Rectangle-2" fill="#E3B704"></path>
+            <path d="M124,0 L160,0 L160,96 L124,96 C117.372583,96 112,90.627417 112,84 L112,12 C112,5.372583 117.372583,1.21743675e-15 124,0 Z" id="Rectangle-2-Copy-2" fill="#E3B704"></path>
+            <path d="M60,0 L96,0 L96,96 L60,96 C53.372583,96 48,90.627417 48,84 L48,12 C48,5.372583 53.372583,1.21743675e-15 60,0 Z" id="Rectangle-2-Copy-5" fill="#E3B704" transform="translate(72.000000, 48.000000) scale(-1, 1) translate(-72.000000, -48.000000) "></path>
+            <path d="M172,0 L208,0 L208,96 L172,96 C165.372583,96 160,90.627417 160,84 L160,12 C160,5.372583 165.372583,1.21743675e-15 172,0 Z" id="Rectangle-2-Copy-6" fill="#E3B704" transform="translate(184.000000, 48.000000) scale(-1, 1) translate(-184.000000, -48.000000) "></path>
+            <polygon id="Star" fill="#F8FFEA" points="47.5 64.25 27.809194 74.6020693 31.5698034 52.6760347 15.6396067 37.1479307 37.654597 33.9489653 47.5 14 57.345403 33.9489653 79.3603933 37.1479307 63.4301966 52.6760347 67.190806 74.6020693"></polygon>
+            <polygon id="Star-Copy" fill="#F8FFEA" points="159.5 64.25 139.809194 74.6020693 143.569803 52.6760347 127.639607 37.1479307 149.654597 33.9489653 159.5 14 169.345403 33.9489653 191.360393 37.1479307 175.430197 52.6760347 179.190806 74.6020693"></polygon>
+            <g id="Rectangle-2-Copy-4">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#D6D7D5" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <path d="M236,0 L272,0 L272,96 L236,96 C229.372583,96 224,90.627417 224,84 L224,12 C224,5.372583 229.372583,1.21743675e-15 236,0 Z" id="Rectangle-2-Copy-3" fill="#E3B704"></path>
+            <polygon id="Star-Copy-2" fill="#F8FFEA" points="271.5 64.25 251.809194 74.6020693 255.569803 52.6760347 239.639607 37.1479307 261.654597 33.9489653 271.5 14 281.345403 33.9489653 303.360393 37.1479307 287.430197 52.6760347 291.190806 74.6020693"></polygon>
+            <g id="Rectangle-2-Copy-10">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#D6D7D5" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+            <polygon id="Star-Copy-3" fill="#F8FFEA" points="383.5 64.25 363.809194 74.6020693 367.569803 52.6760347 351.639607 37.1479307 373.654597 33.9489653 383.5 14 393.345403 33.9489653 415.360393 37.1479307 399.430197 52.6760347 403.190806 74.6020693"></polygon>
+            <g id="Rectangle-2-Copy-13">
+                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                <use fill="#D6D7D5" fill-rule="evenodd" xlink:href="#path-9"></use>
+            </g>
+            <polygon id="Star-Copy-4" fill="#F8FFEA" points="495.5 64.25 475.809194 74.6020693 479.569803 52.6760347 463.639607 37.1479307 485.654597 33.9489653 495.5 14 505.345403 33.9489653 527.360393 37.1479307 511.430197 52.6760347 515.190806 74.6020693"></polygon>
+        </g>
+    </g>
+</svg>
