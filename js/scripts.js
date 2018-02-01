@@ -16,6 +16,8 @@ function showNoResponseText() {
 // Function to load in a new review
 function loadNewReview() {
 
+    $('.review-container').hide();
+
     // Hide the guilt text
     $('.review-no-repsonse').hide();
     $('.review-text').empty();
@@ -33,6 +35,8 @@ function loadNewReview() {
     $('.review-name').text(reviews[currentReview].name);
     $('.review-biz').text(reviews[currentReview].biz);
     // $('.review-text').text(reviews[currentReview].text);
+
+    $('.review-container').fadeIn();
 
     new TypeIt('.review-text', {
        strings: reviews[currentReview].text,
