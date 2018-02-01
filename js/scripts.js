@@ -48,10 +48,10 @@ $(document).ready(function(){
   // On page load, start the cycle
   loadNewReview();
 
-  // Event to move to the next review
-  $('body').click(function(){
-    loadNewReview();
-  });
+  // // Event to move to the next review
+  // $('body').click(function(){
+  //   loadNewReview();
+  // });
 
 });
 
