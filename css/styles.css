@@ -1,63 +1,119 @@
+@font-face {
+    font-family: "handelsonthree";
+    src: url("../fonts/handelson-three-webfont.eot");
+    src: url("../fonts/handelson-three-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/handelson-three-webfont.woff2") format("woff2"), url("../fonts/handelson-three-webfont.woff") format("woff"), url("../fonts/handelson-three-webfont.ttf") format("truetype"), url("../fonts/handelson-three-webfont.svg#handelsonthree") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "proximanova-softregular";
+    src: url("../fonts/proximasoft-regular-webfont.eot");
+    src: url("../fonts/proximasoft-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximasoft-regular-webfont.woff2") format("woff2"), url("../fonts/proximasoft-regular-webfont.woff") format("woff"), url("../fonts/proximasoft-regular-webfont.ttf") format("truetype"), url("../fonts/proximasoft-regular-webfont.svg#proximanova-softregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "proximanova-softsemibold";
+    src: url("../fonts/proximasoft-semibold-webfont.eot");
+    src: url("../fonts/proximasoft-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximasoft-semibold-webfont.woff2") format("woff2"), url("../fonts/proximasoft-semibold-webfont.woff") format("woff"), url("../fonts/proximasoft-semibold-webfont.ttf") format("truetype"), url("../fonts/proximasoft-semibold-webfont.svg#proximanova-softsemibold") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: proximanova-softsemibold, Helvetica, Arial, sans-serif;
   font-size: 32px;
-  line-height: 1.4;
+  line-height: 1.3;
+  background: #27AAFC;
 }
 
 .page-title {
-  background: yellow;
   color: black;
   text-align: center;
   font-size: 47px;
-  padding: 18px 0;
   font-weight: bold;
-  margin-bottom: 48px;
 }
+
+.container {
+  width: 1140px;
+  margin: 32px auto;
+}
+
+/* BLink */
+
+    .blink_me {
+      animation: blinker 1s linear infinite;
+    }
+
+    @keyframes blinker {
+      50% { opacity: 0; }
+    }
+
+/* Review left panel */
+
+    .review-meta {
+
+    }
+
 
 .review-container {
-  width: 940px;
-  margin: 0 auto;
-}
-
-.review-head {
-  margin-bottom: 24px;
+  background: white;
+  height: 480px;
+  padding: 48px;
+  position: relative;
+  box-shadow: 12px 12px 0px rgba(0,0,0,0.125)
 }
 
 .review-byline {
-  font-size: 18px;
-  color: #bbb;
+  font-size: 21px;
+  color: white;
+  font-family: proximanova-softregular;
 }
 
 .review-biz {
-  font-size: 28px;
+  font-size: 44px;
   font-weight: bold;
+  color: white;
+  margin-bottom: 16px;
 }
 
 .review-avatar {
   width: 60px;
-  margin-right: 16px;
-  float: left;
+  display: none;
 }
 
 .review-stars {
   height: 40px;
-  padding-top: 12px;
-  float: right;
+  display: inline-block;
 }
 
-.review-no-repsonse {
-  color: red;
-  text-align: center;
+.review-text {
+  font-size: 40px;
+  margin-top: 16px;
+}
+
+.review-platform-text {
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  color: #bbb;
+  margin-left: 16px;
+}
+
+.review-no-response {
   position: absolute;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 54px;
-  font-weight: bold;
-  margin: 24px auto;
+  bottom: 40px;
+  left: 48px;
   display: none;
+}
+
+.review-no-response img {
+  height: 120px;
 }
 
 /* Utility Classes*/
