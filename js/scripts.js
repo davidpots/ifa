@@ -1,19 +1,26 @@
 var currentReview = 0;
 var totalReviews = reviews.length - 1;
 var fadeInDelay = 2000; // how long to wait before fading in the guilt text
-// var bgColors = [ "#3D4153", "#3081B0", "#17A6FB","#FF685B","#FF895B","#A07DBE","#724697"]
-// var bgColors = ["#17A6FB"];
-// var bgColors = { Yelp: "#D32323",
-//                  Facebook: "#3A599D",
-//                  Google: "#D04539",
-//                  TripAdvisor: "#56973D" };
 
+var titles = [  "Your customers are talking. Talk back!",
+                "Are your reviews falling on deaf ears?",
+                "Take control of your customer feedback.",
+                "Don't let customers think you don't care." ];
+var currentTitle = 0;
+var totalTitles = titles.length - 1;
+
+var bgColors = [  "#51ABE3",
+                  "#998BBA",
+                  "#89A68E",
+                  "#B87E7E" ];
+var currentBgColor = 0;
+var totalBgColors = bgColors.length - 1;
 
 
 // FUnction to show the new guilt text
 function showNoResponseText() {
   setTimeout(function(){
-    $('.review-no-response').fadeIn();
+    $('.review-no-response').show();
   }, fadeInDelay);
   setTimeout(function(){
     loadNewReview();
@@ -30,10 +37,25 @@ function loadNewReview() {
     $('.review-no-response').hide();
     $('.review-text').empty();
 
+    // Show the new title
+    $('.one-liner').text(titles[currentTitle]);
+    if ( currentTitle < totalTitles ) {
+      currentTitle = currentTitle + 1;
+    } else {
+      currentTitle = 0;
+    }
+
+    // Set the new BG Color
+    $('body').css('background-color',bgColors[currentBgColor]);
+    if ( currentBgColor < totalBgColors ) {
+      currentBgColor = currentBgColor + 1;
+    } else {
+      currentBgColor = 0;
+    }
+
     // Load up the next review
     if ( currentReview < totalReviews ) {
       currentReview = currentReview + 1;
-      console.log("currentReview is set to: " + currentReview);
     } else {
       currentReview = 0;
     }
@@ -52,7 +74,7 @@ function loadNewReview() {
     // $('.review-meta').css('background-color',newBGColor);
     // $('.review-no-response').css('color',bgColors[newPlatform]);
 
-    $('.review-container').fadeIn();
+    $('.review-container').slideToggle();
 
     new TypeIt('.review-text', {
        strings: reviews[currentReview].text,
