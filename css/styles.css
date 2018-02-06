@@ -157,13 +157,14 @@ body {
 }
 
 
-
+.rattle {
+  animation: rattle 0.2s;
+}
 
 .slam
 {
-  animation: slam .5s, rattle 0.5s;
+  animation: slam .2s;
   animation-timing-function: ease-in;
-
 }
 
 @keyframes slam

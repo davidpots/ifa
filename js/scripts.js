@@ -21,6 +21,11 @@ var totalBgColors = bgColors.length - 1;
 function showNoResponseText() {
   setTimeout(function(){
     $('.review-no-response').show();
+
+    setTimeout(function(){
+      $('body').addClass('rattle');
+    }, 200);
+
   }, fadeInDelay);
   setTimeout(function(){
     loadNewReview();
