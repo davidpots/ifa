@@ -36,6 +36,7 @@ function showNoResponseText() {
 // Function to load in a new review
 function loadNewReview() {
 
+    $('body').removeClass('rattle');
     $('.review-container').hide();
 
     // Hide the guilt text
