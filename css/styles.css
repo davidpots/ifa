@@ -31,7 +31,7 @@ body {
   line-height: 1.3;
   background: #27AAFC;
   transition: background-color .5s ease;
-
+  overflow: hidden;
 }
 
 .page-title {
@@ -107,14 +107,13 @@ body {
 
 .review-no-response {
   position: absolute;
-  bottom: 150px;
+  bottom: 50px;
   left: 180px;
   display: none;
-  transform: rotate(-15deg);
 }
 
 .review-no-response img {
-  height: 210px;
+  height: 430px;
 }
 
 /* Utility Classes*/
@@ -155,4 +154,49 @@ body {
 
 .inline-block {
   display: inline-block;
+}
+
+
+
+
+.slam
+{
+  animation: slam .5s, rattle 0.5s;
+  animation-timing-function: ease-in;
+
+}
+
+@keyframes slam
+{
+  0%
+  {
+    transform: scale(10, 10);
+    opacity: 0;
+  }
+
+  40%
+  {
+    opacity: 0;
+  }
+
+  100%
+  {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@keyframes rattle
+{
+  0% { margin-top: 0; margin-left: 0; }
+  10% { margin-top: -5px; margin-left: 0; }
+  20% { margin-top: 0; margin-left: -5px; }
+  30% { margin-top: 5px; margin-left: 0; }
+  40% { margin-top: 0; margin-left: 5px; }
+  50% { margin-top: -2px; margin-left: 0; }
+  60% { margin-top: 0; margin-left: -2px; }
+  70% { margin-top: 2px; margin-left: 0; }
+  80% { margin-top: 0; margin-left: 2px; }
+  90% { margin-top: -1px; margin-left: 0; }
+  100% { margin-top: 0; margin-left: 0; }
 }
