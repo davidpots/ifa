@@ -11,6 +11,9 @@ var networks = [
                 { name: "CertaPro Painters",
                   url:  "certapro-painters"  },
 
+                { name: "Chicken Salad Chick",
+                  url:  "chicken-salad-chick"  },
+
                 // { name: "______",
                 //   url:  "______"  },
              ];
