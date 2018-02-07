@@ -34,6 +34,37 @@ body {
   overflow: hidden;
 }
 
+/* Index page stuff */
+
+    .landing-heading {
+      color: white;
+      margin: 0 0 24px 0;
+    }
+
+    .tile-list-tile--default {
+      font-size: 64px;
+      text-align: center;
+      display: inline-block;
+    }
+    .tile-list-tile--default a {
+      padding-bottom: 18px !important;
+    }
+
+    .tile-list-tile {
+      background: white;
+      box-shadow: 12px 12px 0px rgba(0,0,0,0.125);
+      margin-bottom: 12px;
+    }
+    .tile-list-tile a {
+      display: block;
+      text-decoration: none;
+      padding: 24px;
+      color: #333;
+    }
+    .tile-list-tile a:hover {
+      background-color: #e1f4ff;
+    }
+
 .page-title {
   color: black;
   text-align: center;
