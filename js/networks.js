@@ -8,6 +8,9 @@ var networks = [
                 { name: "Burn Boot Camp",
                   url:  "burn-boot-camp"  },
 
+                { name: "CertaPro Painters",
+                  url:  "certapro-painters"  },
+
                 // { name: "______",
                 //   url:  "______"  },
              ];
