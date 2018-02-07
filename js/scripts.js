@@ -76,6 +76,7 @@ function loadNewReview() {
     $('.review-biz').text(reviews[currentReview].biz);
     $('.review-platform').text(reviews[currentReview].platform);
     $('.review-location').text(reviews[currentReview].loc);
+    $('.review-url').attr('href',reviews[currentReview].url);
     // $('.review-text').text(reviews[currentReview].text);
     // $('.review-meta').css('background-color',newBGColor);
     // $('.review-no-response').css('color',bgColors[newPlatform]);
