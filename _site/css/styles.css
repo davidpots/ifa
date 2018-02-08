@@ -41,14 +41,6 @@ body {
       margin: 0 0 24px 0;
     }
 
-    .tile-list-tile--default {
-      font-size: 64px;
-      text-align: center;
-      display: inline-block;
-    }
-    .tile-list-tile--default a {
-      padding-bottom: 18px !important;
-    }
 
     .tile-list-tile {
       background: white;

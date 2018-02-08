@@ -76,7 +76,7 @@ var networks = [
 $(document).ready(function(){
 
   $.each( networks, function( i, network ) {
-    $('.network-list').append("<li class='tile-list-tile'><a href='network--"+ network.url +".html'>"+ network.name +"</a></li>");
+    $('.network-list').append("<li class='tile-list-tile'><a href='network--"+ network.url +".html'>⭐️ &nbsp;"+ network.name +"</a></li>");
   });
 
 });
