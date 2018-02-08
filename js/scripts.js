@@ -2,7 +2,7 @@ var currentReview = 0;
 var totalReviews = reviews.length - 1;
 var fadeInDelay = 2000; // how long to wait before fading in the guilt text
 
-var titles = [  "Your customers are talking. Talk back!",
+var titles = [  "Your customers are talking. Talk back.",
                 "Are your reviews falling on deaf ears?",
                 "Take control of your customer feedback.",
                 "Don't let customers think you don't care." ];
