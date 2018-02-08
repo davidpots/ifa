@@ -23,7 +23,7 @@ var reviews = [
   {
     name:      "Jenn M.",
     stars:     "5",
-    text:      "Surprisingly good. The food is fresh and the staff (at least the bar staff) is so friendly and fun. Ashely D was so welcoming. Great local stop",
+    text:      "Surprisingly good. The food is fresh and the staff (at least the bar staff) is so friendly and fun. Ashely D was so welcoming. Great local stop.",
     url:       "https://www.yelp.com/biz/buffalo-wings-and-rings-bardstown-2?hrid=xAogyiflqU2HAre54TEBcw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
     loc:       "Anaheim, CA",
     avatar:    "_____",

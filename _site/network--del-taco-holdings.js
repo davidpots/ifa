@@ -33,7 +33,7 @@ var reviews = [
   {
     name:      "Chad M.",
     stars:     "5",
-    text:      "I have been coming to this Del Taco for years! While heading to my river home from the OC the halfway pit stop is my favorite Del Taco in the USA. Great service and awesome menu makes Del Taco in Barstow a 5 star place",
+    text:      "I have been coming to this Del Taco for years! While heading to my river home from the OC the halfway pit stop is my favorite Del Taco in the USA. Great service and awesome menu makes Del Taco in Barstow a 5 star place.",
     url:       "https://www.yelp.com/biz/del-taco-barstow?hrid=WCOTXwC03CH0rwFmHbWbwg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
     loc:       "Laguna Hills, CA",
     avatar:    "_____",

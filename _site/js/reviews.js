@@ -10,6 +10,176 @@ var reviews = [
   // },
 
   {
+    name:      "Alex S.",
+    stars:     "1",
+    text:      "Won't let let you cancel your membership. Takes money directly out of your bank account even if you injure yourself and physically can not lift weights anymore.",
+    url:       "https://www.yelp.com/biz/anytime-fitness-austin?hrid=mwFcKmfzURaHTtHm5m8nqg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Austin, TX",
+    avatar:    "_____",
+    biz:       "Anytime Fitness",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Jen S.",
+    stars:     "2",
+    text:      "Ice cream is okay, honestly the pint version at the store is just as good. My biggest complaint is the price. It was $19 for one single scoop chocolate cone and one regular size chocolate shake. $19. Really?",
+    url:       "https://www.yelp.com/biz/ben-and-jerrys-san-diego-2?hrid=5JwwYIXNCk03VuxwgYR0Pw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "San Diego, CA",
+    avatar:    "_____",
+    biz:       "Ben & Jerry’s",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Jenn M.",
+    stars:     "5",
+    text:      "Surprisingly good. The food is fresh and the staff (at least the bar staff) is so friendly and fun. Ashely D was so welcoming. Great local stop.",
+    url:       "https://www.yelp.com/biz/buffalo-wings-and-rings-bardstown-2?hrid=xAogyiflqU2HAre54TEBcw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Anaheim, CA",
+    avatar:    "_____",
+    biz:       "Buffalo Wings & Rings",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Kim W.",
+    stars:     "5",
+    text:      "Burn has changed my outlook on fitness. It's not all cardio! They work you hard and encourage improvement! Very positive, love this place!!",
+    url:       "https://www.yelp.com/biz/burn-boot-camp-flower-mound?hrid=MyMpnXySoYD2KfeLI_Ld_A&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Lewisville, TX",
+    avatar:    "_____",
+    biz:       "Burn Boot Camp",
+    platform:  "Yelp"
+  },
+  {
+    name:      "mike m.",
+    stars:     "1",
+    text:      "Stay away from this flaky business. They not only acted unprofessionally, but they also refused to work with me when I asked about their warranty. Tells something about the business.",
+    url:       "https://www.yelp.com/biz/certapro-painters-of-san-francisco-san-francisco?hrid=eMaXwVTnqiKqMMJq2wCV3w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "San Francisco, CA",
+    avatar:    "_____",
+    biz:       "CertaPro Painters",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Jackie T.",
+    stars:     "2",
+    text:      "Love this place for all the different options of chicken salad. Every time I go into the Buckhead location there are at least 25-30 tables not being used & it creates a depressing, lonely feeling while eating. Less tables!",
+    url:       "https://www.yelp.com/biz/chicken-salad-chick-marietta?hrid=oBxbK1wVrn8nJLUD3qqPgQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Atlanta, GA",
+    avatar:    "_____",
+    biz:       "Chicken Salad Chick",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Chad M.",
+    stars:     "5",
+    text:      "I have been coming to this Del Taco for years! While heading to my river home from the OC the halfway pit stop is my favorite Del Taco in the USA. Great service and awesome menu makes Del Taco in Barstow a 5 star place.",
+    url:       "https://www.yelp.com/biz/del-taco-barstow?hrid=WCOTXwC03CH0rwFmHbWbwg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Laguna Hills, CA",
+    avatar:    "_____",
+    biz:       "Del Taco Holdings",
+    platform:  "Yelp"
+  },
+  {
+    name:      "NENE J.",
+    stars:     "1",
+    text:      "Jenny Craig is going under financially.  So to keep their doors open, they're asking clients to pay over $800 for food per month.",
+    url:       "https://www.yelp.com/biz/jenny-craig-weight-loss-centers-pinole?hrid=QELFKQ4m8Myj6wChbM3Arw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Berkeley, CA",
+    avatar:    "_____",
+    biz:       "Curves-Jenny Craig",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Krista W.",
+    stars:     "1",
+    text:      "Never again. The 'ice cream' tastes terrible . We spend $5 on a tiny cup to only have two bites that actually make your tongue raw. No thanks!",
+    url:       "https://www.yelp.com/biz/dippin-dots-monterey?hrid=IZiIQoSRf1coaFkkXkvh_Q&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Sacramento, CA",
+    avatar:    "_____",
+    biz:       "Dippin' Dots",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Nicole A.",
+    stars:     "4",
+    text:      "This is not the same as the east coast locations but I love DD! I tried the breakfast sandwiches for the first time and they were okay. The line is still long but it's a new establishment, eventually the hype will die down.",
+    url:       "https://www.yelp.com/biz/dunkin-donuts-fremont?hrid=17q4hy3jyys9KJlMFMAFUw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "San Francisco, CA",
+    avatar:    "_____",
+    biz:       "Dunkin' Donuts",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Suzanne B.",
+    stars:     "1",
+    text:      "Horrible customer service. Completely rude. Lost my husbands appointment and handled it very distastefully. Cindy at the front desk is just down right rude.",
+    url:       "https://www.yelp.com/biz/elements-massage-oklahoma-city?hrid=E9to2p5hqlzSSfWJTuQWoA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Nichols Hills, OK",
+    avatar:    "_____",
+    biz:       "Elements Massage",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Alyssa K.",
+    stars:     "5",
+    text:      "Love this place. Great customer service. Great sandwiches. Clean dining room. Best subs in jersey village. You can tell all the ingredients are fresh. I wish they were open later but that's nothing to complain about.",
+    url:       "https://www.yelp.com/biz/firehouse-subs-houston?hrid=4nJOidAbeK_jg9G_mpZKEg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Houston, TX",
+    avatar:    "_____",
+    biz:       "Firehouse Subs",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Jamie L.",
+    stars:     "1",
+    text:      "Horrible! I was not properly trained and ended up injuring my knee. I sent a dr note to pause my contract and they charged me for 4 months afterwards without my knowledge! They still charged me! They are all about the money!",
+    url:       "https://www.yelp.com/biz/yorba-linda-fit-body-boot-camp-yorba-linda-5?hrid=20Wu54mlPocViNXJJR75Mw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Hesperia, CA",
+    avatar:    "_____",
+    biz:       "Fit Body Boot Camp",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Jane K.",
+    stars:     "5",
+    text:      "I have four teen/tween boys and need a lot of haircuts. I love this location - great and friendly staff, do a great job, record what cut was done so they know next time. I'm very happy here.",
+    url:       "https://www.yelp.com/biz/great-clips-austin-6?hrid=RHWEVjWN0HKKswFguMntSw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Austin, TX",
+    avatar:    "_____",
+    biz:       "Great Clips",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Max A.",
+    stars:     "1",
+    text:      "We ordered 3 drinks and they messed up 2 of them. After they remade it, both the drinks were still wrong and they charged us for a medium but we got 2 smalls. ",
+    url:       "https://www.yelp.com/biz/jamba-juice-woodinville?hrid=SQ1bkakwUy-C8vbzG9JC9A&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Seattle, WA",
+    avatar:    "_____",
+    biz:       "Jamba Juice",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Helen J.",
+    stars:     "5",
+    text:      "Jazzercise is a GREAT workout!!! Great instructors and good for any age group. Lots of classes at different times of the day.",
+    url:       "https://www.yelp.com/biz/jazzercise-lakeway?hrid=XhmVMcChbKkKMPpSzNNJ-w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Austin, TX",
+    avatar:    "_____",
+    biz:       "Jazzercise",
+    platform:  "Yelp"
+  },
+  {
+    name:      "Samantha D.",
+    stars:     "2",
+    text:      "Service was marginal at best...at least one item broken on every visit. Not impressed, even with several different people...only one seemed to know how to clean a house.  Switched to another company & the service is by far better.",
+    url:       "https://www.yelp.com/biz/maidpro-columbia?hrid=ZbgBgzS3jgmfbiXhVK4mFg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+    loc:       "Columbia, MO",
+    avatar:    "_____",
+    biz:       "MaidPro Franchise Corporation",
+    platform:  "Yelp"
+  },
+  {
     name:   "D. W.",
     stars:  "1",
     text:   "Bought a Groupon for my daughter for end of school. Called to make the appointment and was told I had to sign a waiver in person. Went by there on my way home and waited for 5 minutes but no one came to the front.",
