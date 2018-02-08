@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="522px" height="98px" viewBox="0 0 522 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>star-rating-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="star-rating-3" fill="#E60000">
+            <polygon id="Star" points="52 78.6261646 22.3343685 94 28 61.4376941 4 38.376941 37.1671843 33.6261646 52 4"></polygon>
+            <polygon id="Star-Copy-2" points="156 78.6261646 126.334369 94 132 61.4376941 108 38.376941 141.167184 33.6261646 156 4"></polygon>
+            <polygon id="Star-Copy" transform="translate(76.000000, 49.000000) scale(-1, 1) translate(-76.000000, -49.000000) " points="100 78.6261646 70.3343685 94 76 61.4376941 52 38.376941 85.1671843 33.6261646 100 4"></polygon>
+            <polygon id="Star-Copy-3" transform="translate(180.000000, 49.000000) scale(-1, 1) translate(-180.000000, -49.000000) " points="204 78.6261646 174.334369 94 180 61.4376941 156 38.376941 189.167184 33.6261646 204 4"></polygon>
+            <polygon id="Star-Copy-5" points="260 78.6261646 230.334369 94 236 61.4376941 212 38.376941 245.167184 33.6261646 260 4"></polygon>
+            <polygon id="Star-Copy-4" transform="translate(284.000000, 49.000000) scale(-1, 1) translate(-284.000000, -49.000000) " points="308 78.6261646 278.334369 94 284 61.4376941 260 38.376941 293.167184 33.6261646 308 4"></polygon>
+            <polygon id="Star-Copy-7" opacity="0.100000001" points="364 78.6261646 334.334369 94 340 61.4376941 316 38.376941 349.167184 33.6261646 364 4"></polygon>
+            <polygon id="Star-Copy-6" opacity="0.100000001" transform="translate(388.000000, 49.000000) scale(-1, 1) translate(-388.000000, -49.000000) " points="412 78.6261646 382.334369 94 388 61.4376941 364 38.376941 397.167184 33.6261646 412 4"></polygon>
+            <polygon id="Star-Copy-9" opacity="0.100000001" points="468 78.6261646 438.334369 94 444 61.4376941 420 38.376941 453.167184 33.6261646 468 4"></polygon>
+            <polygon id="Star-Copy-8" opacity="0.100000001" transform="translate(492.000000, 49.000000) scale(-1, 1) translate(-492.000000, -49.000000) " points="516 78.6261646 486.334369 94 492 61.4376941 468 38.376941 501.167184 33.6261646 516 4"></polygon>
+        </g>
+    </g>
+</svg>

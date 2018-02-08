@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-location" fill="#D6D6D6">
+            <path d="M30.45,33.2115385 C35.6671875,33.2115385 39.9,29.3672736 39.9,24.625 C39.9,19.8830841 35.6671875,16.0384615 30.45,16.0384615 C25.228875,16.0384615 21,19.8830841 21,24.625 C21,29.3672736 25.228875,33.2115385 30.45,33.2115385 Z M48,24.625 C48,37.4446172 32.7675,52.5048125 32.1225,53.1396797 C31.53375,53.7132266 30.76875,54 30,54 C29.23125,54 28.46625,53.7132266 27.8775,53.1396797 C27.22875,52.5048125 12,37.4446172 12,24.625 C12,14.9066484 20.07375,7 30,7 C39.92625,7 48,14.9066484 48,24.625 Z" id="Fill-36-Copy"></path>
+        </g>
+    </g>
+</svg>
