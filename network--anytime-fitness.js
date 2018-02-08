@@ -7,7 +7,7 @@ var reviews = [
   //   loc:       "_____",
   //   avatar:    "_____",
   //   biz:       "_____",
-  //   platform:  "_____"
+  //   platform:  "Yelp"
   // },
 
   {

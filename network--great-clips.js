@@ -8,7 +8,7 @@ var reviews = [
     loc:       "_____",
     avatar:    "_____",
     biz:       "_____",
-    platform:  "_____"
+    platform:  "Yelp"
   },
   {
     name:      "_____",
@@ -18,7 +18,7 @@ var reviews = [
     loc:       "_____",
     avatar:    "_____",
     biz:       "_____",
-    platform:  "_____"
+    platform:  "Yelp"
   },
   {
     name:      "_____",
@@ -28,7 +28,7 @@ var reviews = [
     loc:       "_____",
     avatar:    "_____",
     biz:       "_____",
-    platform:  "_____"
+    platform:  "Yelp"
   },
   {
     name:      "_____",
@@ -38,7 +38,7 @@ var reviews = [
     loc:       "_____",
     avatar:    "_____",
     biz:       "_____",
-    platform:  "_____"
+    platform:  "Yelp"
   },
 
 ]
