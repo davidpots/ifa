@@ -85,7 +85,7 @@ function loadNewReview() {
 
     new TypeIt('.review-text', {
        strings: reviews[currentReview].text,
-       speed: 35,
+       speed: 10,
        autoStart: true,
        callback: showNoResponseText
     });
