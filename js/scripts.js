@@ -94,6 +94,8 @@ function loadNewReview() {
 
 $(document).ready(function(){
 
+  $(".one-liner").before('<a class="back-to-home" href="index.html">&larr; back</a>');
+
   // On page load, start the cycle
   loadNewReview();
 

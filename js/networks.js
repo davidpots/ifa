@@ -77,6 +77,7 @@ $(document).ready(function(){
 
   $.each( networks, function( i, network ) {
     $('.network-list').append("<li class='tile-list-tile'><a href='network--"+ network.url +".html'>⭐️ &nbsp;"+ network.name +"</a></li>");
+    console.log('http://www.davidpots.com/ifa/' + 'network--' + network.url);
   });
 
 });
