@@ -34,13 +34,26 @@ body {
   overflow: hidden;
 }
 
+.back-to-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  color: white;
+  text-decoration: none;
+  padding: 24px;
+}
+
+.back-to-home:hover {
+  opacity: .5;
+}
+
 /* Index page stuff */
 
     .landing-heading {
       color: white;
       margin: 0 0 24px 0;
     }
-
 
     .tile-list-tile {
       background: white;

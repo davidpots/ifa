@@ -1,4 +1,8 @@
 var networks = [
+
+                { name: "Anytime Fitness",
+                  url:  "anytime-fitness"  },
+
                 { name: "Ben and Jerry's",
                   url:  "ben-and-jerrys"  },
 
@@ -71,12 +75,108 @@ var networks = [
                 { name: "Wingstop Restaurants",
                   url:  "wingstop-restaurants"  },
 
+
+
+
+
+
+                // { name: "American Family Care",
+                //   url:  "american-family-care"  },
+                //
+                // { name: "Arby's",
+                //   url:  "arbys"  },
+                //
+                // { name: "Big Frog",
+                //   url:  "big-frog"  },
+                //
+                // { name: "Denny's",
+                //   url:  "dennys"  },
+                //
+                // { name: "Doc Popcorn",
+                //   url:  "doc-popcorn"  },
+                //
+                // { name: "Maaco",
+                //   url:  "maaco"  },
+                //
+                // { name: "Golden Corral",
+                //   url:  "golden-corral"  },
+                //
+                // { name: "Grease Monkey",
+                //   url:  "grease-monkey"  },
+                //
+                // { name: "Hooters",
+                //   url:  "hooters"  },
+                //
+                // { name: "Huddle House",
+                //   url:  "huddle-house"  },
+                //
+                // { name: "Hungry Howie's",
+                //   url:  "hungry-howies"  },
+                //
+                // { name: "J.D. Byrider",
+                //   url:  "jd-byrider"  },
+                //
+                // { name: "Marco's Pizza",
+                //   url:  "marcos-pizza"  },
+                //
+                // { name: "Merry Maids",
+                //   url:  "merry-maids"  },
+                //
+                // { name: "Miracle-Ear",
+                //   url:  "miracle-ear"  },
+                //
+                // { name: "Molly Maid",
+                //   url:  "molly-maid"  },
+                //
+                // { name: "Nothing Bundt",
+                //   url:  "nothing-bundt"  },
+                //
+                // { name: "Painting with a Twist",
+                //   url:  "painting-with-a-twist"  },
+                //
+                // { name: "Pinot's Palette",
+                //   url:  "pinots-palette"  },
+                //
+                // { name: "Pita Pit",
+                //   url:  "pita-pit"  },
+                //
+                // { name: "Pizza Factory",
+                //   url:  "pizza-factory"  },
+                //
+                // { name: "Pizza Ranch",
+                //   url:  "pizza-ranch"  },
+                //
+                // { name: "Planet Fitness",
+                //   url:  "planet-fitness"  },
+                //
+                // { name: "Schlotzsky's",
+                //   url:  "schlotzskys"  },
+                //
+                // { name: "School of Rock",
+                //   url:  "school-of-rock"  },
+                //
+                // { name: "Sky Zone",
+                //   url:  "sky-zone"  },
+                //
+                // { name: "Sonic",
+                //   url:  "sonic"  },
+                //
+                // { name: "Subway",
+                //   url:  "subway"  },
+                //
+                // { name: "TGI Fridays",
+                //   url:  "tgi-fridays"  },
+                //
+                // { name: "Haagen-Dazs",
+                //   url:  "haagen-dazs"  },
+
              ];
 
 $(document).ready(function(){
 
   $.each( networks, function( i, network ) {
     $('.network-list').append("<li class='tile-list-tile'><a href='network--"+ network.url +".html'>⭐️ &nbsp;"+ network.name +"</a></li>");
+    console.log('http://www.davidpots.com/ifa/' + 'network--' + network.url);
   });
 
 });
